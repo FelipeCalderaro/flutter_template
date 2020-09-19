@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     // return MultiProvider(
     //   providers: [
     //     ChangeNotifierProvider<CustomViewModel>(
-    //       builder: (context) => CustomViewModel(),
+    //       create: (context) => CustomViewModel(),
     //     ),
     //   ],
     //   child: MaterialApp(
